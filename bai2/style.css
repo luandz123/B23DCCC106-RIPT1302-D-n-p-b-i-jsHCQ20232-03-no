@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+
+    font-family: Arial, sans-serif;
+
+    background-image: url('wp9164615.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+h1 {
+    color: #333;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+}
+
+input[type="number"] {
+    width: 50px;
+}
+
+button {
+    margin-right: 5px;
+}
+
+#timer {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#alarmSound {
+    display: none;
+}
+
+.start {
+    color: blue;
+    border-radius: 10px solid;
+}
+
+.reset {
+    color: brown;
+}

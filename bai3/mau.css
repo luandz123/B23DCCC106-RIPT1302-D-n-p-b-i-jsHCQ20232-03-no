@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat$display=swap');
+
+body {
+    background-image: linear-gradient(#626361, #b1afaf);
+    height: 122vh;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Monterserrat', sans-serif;
+}
+
+.main {
+    background-color: white;
+    height: auto;
+    width: 650px;
+    position: absolute;
+    transform: translate(50%, 50%);
+
+}
+
+.left {
+    width: 200px;
+    height: 100%;
+
+    background-color: rgba(255, 106, 0, 0.863);
+    float: left;
+}
+
+.right {
+    width: 450px;
+    float: left;
+}
+
+.profile-img {
+    width: 180px;
+    height: 180px;
+    background-color: black;
+    border-radius: 50%;
+    box-shadow: 6px 7px 9px 5px fbb03b;
+    margin-top: 50px;
+    margin-left: 60px;
+    border: 10px solid #fbb03b;
+}
+
+.profile-img img {
+    border-radius: 50%;
+    width: 100%;
+}
+
+.box-1 {
+    position: relative;
+}
+
+.heading {
+    background-color: #626361;
+    color: #fbb03b;
+    padding: 10px;
+    margin-right: -15px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.heading::after {
+    content: " ";
+    position: absolute;
+    width: 21px;
+    height: 18px;
+    background-color: #5a5959;
+    left: 191px;
+    top: 26px;
+    transform: rotate(56deg);
+    z-index: -1;
+
+}
+.p1 {
+    padding: 9px 10px;
+    font-size: 11px;
+}
+
+.fa-solid {
+    padding-right: 11px !important;
+    font-size: 11px !important;
+    vertical-align: sub;
+}
+
+.skill-container {
+    background-color: #4d4d4d;
+    width: 90%;
+    margin: 0px 10px;
+    height: 5px;
+}
+
+.skill-html {
+    background-color: white;
+    width: 50px;
+    height: 100%;
+    z-index: 1;
+    color: white;
+}
+
+.skill-css {
+    background-color: white;
+    width: 60px;
+    height: 100%;
+    z-index: 1;
+    color: white;
+}
+
+.skill-js {
+    background-color: white;
+    width: 90px;
+    height: 100%;
+    z-index: 1;
+    color: white;
+}
+
+.skill-python {
+    background-color: white;
+    width: 90%;
+    height: 100%;
+    z-index: 1;
+    color: white;
+}
+
+.name-div {
+    padding: 86px 0px 60px 55px;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 10px;
+}
+
+.fa-solid {
+    font-size: 18px !important;
+    position: relative;
+    left: 5px;
+    bottom: 7px;
+
+}
+
+.name-div h1 {
+    margin-bottom: 60px;
+}
+
+.box-2 {
+    position: relative;
+    left: 20px;
+    padding-bottom: 20px;
+}
+
+.p3 {
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+
+.p2 {
+    font-size: 15px;
+    font-weight: 400px;
+    letter-spacing: 1px;
+
+}
+
+.a1 {
+    padding: 5px;
+}
+
+.a2 {
+    padding: 5px;
+}
